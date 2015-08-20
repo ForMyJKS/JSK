@@ -15,9 +15,9 @@ public class Test1 extends TestBase{
     @Test
     public void testForJKNS (){
         open("/");
-        $(By.linkText("Р¤РёРЅР°РЅСЃС‹")).click();
-        $(By.linkText("РљСѓСЂСЃС‹ РІР°Р»СЋС‚")).click();
-        $$(By.linkText("Р”РѕР»Р»Р°СЂ РЎРЁРђ")).get(1).click();
-        $("h2").shouldHave(text("Р”РѕР»Р»Р°СЂ РЎРЁРђ"));
+        $(By.linkText("Финансы")).click();
+        $(By.linkText("Курсы валют")).click();
+        $$(By.linkText("Доллар США")).get(1).click();
+        $("h2").shouldHave(text("Доллар США"));
     }
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1440062124307" stop="1440062156003" version="1.4.10">
+    <name>Custom suite : JKS</name>
+    <title>Custom suite : JKS</title>
+    <test-cases>
+        <test-case start="1440062124511" stop="1440062154737" status="passed">
+            <name>testForJKNS</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Anders"/>
+                <label name="thread" value="3996@Anders.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
